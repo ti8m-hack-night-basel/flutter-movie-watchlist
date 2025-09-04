@@ -12,13 +12,13 @@ class Solution extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Flexible(
+            Expanded(
               flex: 4,
               child: Image(
                 image: AssetImage('lib/assets/images/lasagna.jpg'),
               ),
             ),
-            Flexible(
+            Expanded(
               flex: 6,
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 16),
