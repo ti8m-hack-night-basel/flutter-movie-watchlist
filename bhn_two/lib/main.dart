@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(
               title: Text("My Lasagnas", style: Theme.of(context).textTheme.titleMedium,),
             ),
-            body: MainScreenSolution(),
+            body: MainScreen(),
           ),
         ));
   }

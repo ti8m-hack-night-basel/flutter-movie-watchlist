@@ -1,5 +1,4 @@
 import 'package:bhn_two/models/lasagna.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class DetailScreenSolution extends StatelessWidget {
