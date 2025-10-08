@@ -20,7 +20,13 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            title: Text("Test"),actions: [Text("Test")],
+            title: Text("Test"),
+            actions: [
+              Padding(
+                padding: const EdgeInsets.only(right: 8.0),
+                child: Text("Test"),
+              ),
+            ],
           ),
           body: MainScreen(),
         ),
